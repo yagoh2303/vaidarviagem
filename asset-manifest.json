@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vaidarviagem/static/css/main.0ae5cfd2.css",
-    "main.js": "/vaidarviagem/static/js/main.25c665cf.js",
+    "main.css": "/vaidarviagem/static/css/main.d8418367.css",
+    "main.js": "/vaidarviagem/static/js/main.69ea2659.js",
     "static/js/787.afe26b29.chunk.js": "/vaidarviagem/static/js/787.afe26b29.chunk.js",
     "static/media/logo.png": "/vaidarviagem/static/media/logo.2f845fdb52ee573e228c.png",
     "index.html": "/vaidarviagem/index.html",
-    "main.0ae5cfd2.css.map": "/vaidarviagem/static/css/main.0ae5cfd2.css.map",
-    "main.25c665cf.js.map": "/vaidarviagem/static/js/main.25c665cf.js.map",
+    "main.d8418367.css.map": "/vaidarviagem/static/css/main.d8418367.css.map",
+    "main.69ea2659.js.map": "/vaidarviagem/static/js/main.69ea2659.js.map",
     "787.afe26b29.chunk.js.map": "/vaidarviagem/static/js/787.afe26b29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ae5cfd2.css",
-    "static/js/main.25c665cf.js"
+    "static/css/main.d8418367.css",
+    "static/js/main.69ea2659.js"
   ]
 }
