@@ -1,9 +1,9 @@
 import React from "react";
-import { Col,  Row, Container, Tabs, Tab, Form, Button} from "react-bootstrap";
+import { Col,  Row, Container, Tabs, Tab, Form, Button, Card} from "react-bootstrap";
 
 const Search = () => (
     <Container>
-        <Row>
+        <Row className='my-2'>
             <Col xs={12} lg={6}>
             <Tabs
                     defaultActiveKey="profile"
@@ -63,7 +63,33 @@ const Search = () => (
             </Tabs>
             </Col>
             <Col xs={12} lg={6}>
-                asdahdskjasdhkhdasj
+                <Row>
+                    <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="https://nsc-total-wp.s3.sa-east-1.amazonaws.com/wp-content/uploads/2022/10/o-que-e-solsticio-de-verao-1.jpg" />
+                        <Card.Body>
+                            <Card.Title>Melhores destinos</Card.Title>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                        </Card.Body>
+                       </Card>
+                    </Col>
+                    <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="https://shopee.com.br/blog/wp-content/uploads/2022/01/Check-list-viagem-Lugares-baratos-para-viajar.jpg" />
+                        <Card.Body>
+                            <Card.Title>O que não pode faltar na sua mala</Card.Title>
+                            <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                            </Card.Text>
+                        </Card.Body>
+                       </Card>
+
+                    </Col>
+                </Row>
             </Col>
         </Row>
 

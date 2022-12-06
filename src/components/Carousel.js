@@ -1,11 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import './Carousel.scss';
 
 
 const Slider = () => (
-    <Carousel slide={false} className='mx-5 px-2 py-2 carousel'>
+    <Carousel slide={false} className='mx-3 px-1 py-2'>
       <Carousel.Item>
         <img
           className="d-block w-100"
