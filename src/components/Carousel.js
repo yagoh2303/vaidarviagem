@@ -1,10 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
+import '../components/Carousel.scss'
 
 
 const Slider = () => (
-    <Carousel slide={false} className='mx-3 px-1 py-2'>
+
+   <Carousel slide={false} className='mx-3 px-1 py-2 carousel'>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -30,6 +32,8 @@ const Slider = () => (
 
       </Carousel.Item>
     </Carousel>
+
+
 );
 
 export default Slider

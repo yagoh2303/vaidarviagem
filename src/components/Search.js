@@ -3,7 +3,7 @@ import { Col,  Row, Container, Tabs, Tab, Form, Button, Card} from "react-bootst
 
 const Search = () => (
     <Container>
-        <Row className='my-2'>
+        <Row className='my-4'>
             <Col xs={12} lg={6}>
             <Tabs
                     defaultActiveKey="profile"
@@ -73,7 +73,9 @@ const Search = () => (
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
+                            <Button variant="warning">Saiba mais</Button>
                         </Card.Body>
+                        
                        </Card>
                     </Col>
                     <Col>
@@ -85,7 +87,9 @@ const Search = () => (
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
+                            <Button variant="warning">Saiba mais</Button>
                         </Card.Body>
+                        
                        </Card>
 
                     </Col>
